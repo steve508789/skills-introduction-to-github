@@ -27,6 +27,20 @@ ASSUMED_NUM_VILLAGES_PER_DAY = 3
 ASSUMED_DRIVING_HOURS_PER_DAY = 3.5 # hours
 ASSUMED_SETUP_HOURS_PER_VILLAGE = 0.75 # hours
 
+# New Constants for Per-Trip Allocated Costs & Other Revenue
+# Defaults based on Hume Highway example, can be overridden in main calculation
+PER_TRIP_MAINTENANCE_COST_DEFAULT = 132.14
+PER_TRIP_CONNECTIVITY_COST_DEFAULT = 320.00 # Starlink portion for trip + initial
+PER_TRIP_ADMIN_COST_DEFAULT = 80.00       # Route planning & admin
+PER_TRIP_DEPRECIATION_COST_DEFAULT = 278.40 # Bus + tech depreciation for trip
+PER_TRIP_OTHER_REVENUE_DEFAULT = 2000.00   # e.g., additional fixed revenue, grants for trip
+
+# Note: The following block was a duplicate and is removed for cleanup.
+# def calculate_annual_fixed_costs():
+# ASSUMED_DAILY_ROUTE_KM = 200.0  # km
+# ASSUMED_NUM_VILLAGES_PER_DAY = 3
+# ASSUMED_DRIVING_HOURS_PER_DAY = 3.5 # hours
+# ASSUMED_SETUP_HOURS_PER_VILLAGE = 0.75 # hours
 
 def calculate_annual_fixed_costs():
     """Calculates the total annual fixed costs."""
@@ -102,6 +116,34 @@ def calculate_trip_revenue(
 
     return total_revenue, projected_sales_orders
 
+def calculate_net_trip_profit(
+    trip_revenue_from_sales,
+    total_variable_trip_costs,
+    per_trip_maintenance,
+    per_trip_connectivity,
+    per_trip_admin,
+    per_trip_depreciation,
+    per_trip_other_revenue
+):
+    """
+    Calculates the net profit for a trip, including allocated fixed costs and other revenue.
+    """
+    total_trip_revenue = trip_revenue_from_sales + per_trip_other_revenue
+
+    total_trip_allocated_fixed_costs = (
+        per_trip_maintenance +
+        per_trip_connectivity +
+        per_trip_admin +
+        per_trip_depreciation
+    )
+
+    total_trip_costs = total_variable_trip_costs + total_trip_allocated_fixed_costs
+
+    net_profit = total_trip_revenue - total_trip_costs
+
+    return net_profit, total_trip_revenue, total_trip_allocated_fixed_costs, total_trip_costs
+
+
 if __name__ == '__main__':
     # Initial calculations (general rates)
     annual_fixed_costs = calculate_annual_fixed_costs()
@@ -116,26 +158,19 @@ if __name__ == '__main__':
 
     # --- Example Trip Calculation ---
     print("--- Example Trip Calculation ---")
-    # Define parameters for a sample trip (can be taken from user input later)
-    sample_trip_route_km = ASSUMED_DAILY_ROUTE_KM # Using assumed daily values for example
+    # Define parameters for a sample trip
+    sample_trip_route_km = ASSUMED_DAILY_ROUTE_KM
     sample_trip_num_villages = ASSUMED_NUM_VILLAGES_PER_DAY
     sample_trip_driving_hours = ASSUMED_DRIVING_HOURS_PER_DAY
     sample_trip_setup_hours_per_village = ASSUMED_SETUP_HOURS_PER_VILLAGE
-    sample_trip_population = 5000 # Example population for the route
+    sample_trip_population = 5000  # Example population
 
-    trip_variable_costs, trip_fuel_cost, trip_staff_cost = calculate_trip_variable_costs(
-        route_km=sample_trip_route_km,
-        num_villages=sample_trip_num_villages,
-        driving_hours=sample_trip_driving_hours,
-        setup_hours_per_village=sample_trip_setup_hours_per_village,
-        fuel_cost_per_km_val=fuel_cost_per_km,
-        hourly_staff_rate_val=hourly_staff_rate
-    )
-
-    trip_revenue, projected_sales = calculate_trip_revenue(
-        total_population_on_route=sample_trip_population
-        # Using default penetration rate and avg order value from constants
-    )
+    # You can override the above sample_trip_... values here for a specific scenario, e.g., Hume:
+    # sample_trip_route_km = 880.0
+    # sample_trip_num_villages = 8
+    # sample_trip_driving_hours = 8.79
+    # sample_trip_setup_hours_per_village = 1.31
+    # sample_trip_population = 51200
 
     print(f"Sample Trip Details:")
     print(f"  Route Distance: {sample_trip_route_km} km")
@@ -144,23 +179,80 @@ if __name__ == '__main__':
     print(f"  Setup Hours per Village: {sample_trip_setup_hours_per_village} hours")
     print(f"  Route Population: {sample_trip_population} people")
     print("\\n")
-    print(f"Trip Variable Costs:")
+
+    # Calculate trip variable costs
+    trip_variable_costs, trip_fuel_cost, trip_staff_cost = calculate_trip_variable_costs(
+        route_km=sample_trip_route_km,
+        num_villages=sample_trip_num_villages,
+        driving_hours=sample_trip_driving_hours,
+        setup_hours_per_village=sample_trip_setup_hours_per_village,
+        fuel_cost_per_km_val=fuel_cost_per_km,
+        hourly_staff_rate_val=hourly_staff_rate
+    )
+    print(f"Trip Variable Costs (Fuel & Staff):")
     print(f"  Fuel Cost: ${trip_fuel_cost:,.2f}")
     print(f"  Staff Cost: ${trip_staff_cost:,.2f}")
     print(f"  Total Variable Costs for Trip: ${trip_variable_costs:,.2f}")
     print("\\n")
-    print(f"Trip Projected Revenue:")
-    print(f"  Projected Sales Orders: {projected_sales:.1f}") # Can be fractional
-    print(f"  Total Projected Revenue: ${trip_revenue:,.2f}")
 
-    # Profit/Loss for the trip
-    trip_profit_loss = trip_revenue - trip_variable_costs
+    # Calculate revenue from sales
+    # To use Hume specific example values for revenue part, you would also need to adjust
+    # MARKET_PENETRATION_RATE and AVERAGE_SALE_ORDER_VALUE constants at the top of the file,
+    # or pass them directly here:
+    revenue_from_sales, projected_sales_orders = calculate_trip_revenue(
+        total_population_on_route=sample_trip_population
+        # Example for Hume (constants would need to be changed, or pass as args):
+        # total_population_on_route=51200,
+        # penetration_rate_val=0.00586, # (300 orders / 51200 pop)
+        # avg_order_value_val=200.00
+    )
+
+    # Define per-trip allocated costs and other revenue
+    # Using default per-trip costs defined at the top, or override them here for specific trip scenario
+    pt_maintenance_cost = PER_TRIP_MAINTENANCE_COST_DEFAULT
+    pt_connectivity_cost = PER_TRIP_CONNECTIVITY_COST_DEFAULT
+    pt_admin_cost = PER_TRIP_ADMIN_COST_DEFAULT
+    pt_depreciation_cost = PER_TRIP_DEPRECIATION_COST_DEFAULT
+    pt_other_revenue = PER_TRIP_OTHER_REVENUE_DEFAULT
+
+    # Example: Override for Hume specific scenario for allocated costs and other revenue
+    # pt_maintenance_cost = 132.14
+    # pt_connectivity_cost = 320.00
+    # pt_admin_cost = 80.00
+    # pt_depreciation_cost = 278.40
+    # pt_other_revenue = 2000.00
+
+    # Calculate Net Trip Profit
+    net_trip_profit, total_trip_revenue, total_allocated_fixed_costs, total_trip_costs = calculate_net_trip_profit(
+        trip_revenue_from_sales=revenue_from_sales,
+        total_variable_trip_costs=trip_variable_costs,
+        per_trip_maintenance=pt_maintenance_cost,
+        per_trip_connectivity=pt_connectivity_cost,
+        per_trip_admin=pt_admin_cost,
+        per_trip_depreciation=pt_depreciation_cost,
+        per_trip_other_revenue=pt_other_revenue
+    )
+
+    print(f"--- Detailed Trip Profitability ---")
+    print(f"Projected Sales Orders: {projected_sales_orders:.1f}")
+    print(f"Revenue from Sales: ${revenue_from_sales:,.2f}")
+    print(f"Other Per-Trip Revenue: ${pt_other_revenue:,.2f}")
+    print(f"Total Trip Revenue: ${total_trip_revenue:,.2f}")
     print("\\n")
-    print(f"Trip Profit/Loss: ${trip_profit_loss:,.2f}")
-    print("NB: This trip P/L does not account for allocated fixed costs.")
+    print(f"Variable Costs for Trip (already listed above): ${trip_variable_costs:,.2f}") # Note: This is a repeat, but good for section summary
+    print(f"Allocated Per-Trip Fixed Costs:")
+    print(f"  Maintenance: ${pt_maintenance_cost:,.2f}")
+    print(f"  Connectivity: ${pt_connectivity_cost:,.2f}")
+    print(f"  Admin & Planning: ${pt_admin_cost:,.2f}")
+    print(f"  Depreciation: ${pt_depreciation_cost:,.2f}")
+    print(f"  Total Allocated Per-Trip Fixed Costs: ${total_allocated_fixed_costs:,.2f}")
+    print("\\n")
+    print(f"Total Trip Costs (Variable + Allocated Fixed): ${total_trip_costs:,.2f}")
+    print(f"NET TRIP PROFIT/LOSS: ${net_trip_profit:,.2f}")
     print("\\n")
 
-    # --- Overall Annual & Per KM Cost Calculation ---
+    # --- Overall Annual & Per KM Cost Calculation (based on long-term assumptions) ---
+    # This section remains for general annualized cost estimation.
     print("--- Overall Annual & Per KM Cost Calculation (based on assumptions) ---")
     # Calculate total annual variable costs based on assumptions
     # 1. Annual Fuel Cost
