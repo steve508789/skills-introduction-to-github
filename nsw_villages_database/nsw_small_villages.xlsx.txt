@@ -1,0 +1,35 @@
+Village Name	Population	Local Government Area	Region	Latitude	Longitude	Designation
+Crescent Head	978	Kempsey	North Coast	-31.1833	152.9667	Locality
+Berrigan	957	Berrigan	Murray	-35.6667	145.8	Locality
+Bowraville	941	Nambucca Valley	North Coast	-30.65	152.85	Locality
+Beechwood	914	Port Macquarie-Hastings	North Coast	-31.3833	152.85	Locality
+East Jindabyne	907	Snowy Monaro	Snowy Mountains	-36.4167	148.6167	Locality
+Boggabri	885	Narrabri	New England	-30.6833	150.0417	Locality
+Clarence Town	878	Dungog	Hunter	-32.5833	151.7667	Locality
+Darlington Point	868	Murrumbidgee	Riverina	-34.5667	146.0667	Locality
+Adelong	856	Snowy Valleys	Riverina	-35.3167	148.0667	Locality
+Brandy Hill	852	Port Stephens	Hunter	-32.6167	151.8333	Locality
+Erowal Bay	791	Shoalhaven	South Coast	-35.1167	150.5667	Locality
+Cunjurong Point	785	Shoalhaven	South Coast	-35.1833	150.5833	Locality
+Brewarrina	743	Brewarrina	Living Outback	-29.9667	146.8583	Locality
+Brooklyn	737	Central Coast	Central Coast	-33.5333	151.2167	Locality
+Ewingsdale	733	Byron	Northern Rivers	-28.6167	153.5833	Locality
+Dunedoo	725	Warrumbungle	Central West	-32.0167	149.3833	Locality
+Coolah	722	Warrumbungle	Central West	-31.8167	149.7167	Locality
+Bawley Point	716	Eurobodalla	South Coast	-35.5167	150.4	Locality
+Clifton Grove	701	Greater Taree	North Coast	-31.8833	152.4	Locality
+Cudgen	616	Tweed	Northern Rivers	-28.25	153.5833	Locality
+Curlewis	605	Gunnedah	New England	-31.0833	150.3333	Locality
+Eugowra	601	Forbes	Central West	-33.7167	148.3667	Locality
+Cowan	599	Hornsby	Sydney	-33.5833	151.1667	Locality
+Coomba Park	587	Mid-Coast	North Coast	-32.2667	152.5667	Locality
+Baradine	586	Warrumbungle	Central West	-30.9333	149.0667	Locality
+Belimbla Park	576	Camden	Macarthur	-34.0833	150.8	Locality
+Coleambally	566	Murrumbidgee	Riverina	-34.8167	145.8833	Locality
+Clunes	564	Lismore	Northern Rivers	-28.9667	153.35	Locality
+Burringbar	555	Tweed	Northern Rivers	-28.3833	153.4833	Locality
+Coutts Crossing	553	Clarence Valley	Northern Rivers	-29.6333	152.9167	Locality
+Boggabilla	529	Moree Plains	New England	-28.6167	150.0333	Locality
+Broadwater	524	Richmond Valley	Northern Rivers	-29.0333	153.4167	Locality
+Dunoon	513	Lismore	Northern Rivers	-28.6833	153.3167	Locality
+Euston	500	Balranald	Living Outback	-34.5833	142.7333	Locality

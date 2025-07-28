@@ -1,0 +1,99 @@
+NSW VILLAGES DATABASE - POPULATION SUMMARY REPORT
+==================================================
+Generated: July 28, 2025
+Data Source: NSW Geographical Names Register & 2021 Census
+
+OVERVIEW
+--------
+Total Villages: 153
+Total Population: 262,952
+Average Population: 1,719 people per village
+
+POPULATION DISTRIBUTION
+-----------------------
+Large Villages (5000+):     11 villages (7.2%)  - 126,577 people (48.1%)
+Medium Villages (1000-4999): 53 villages (34.6%) - 116,445 people (44.3%)
+Small Villages (500-999):    34 villages (22.2%) -  16,447 people (6.3%)
+Very Small Villages (<500):  55 villages (35.9%) -   3,483 people (1.3%)
+
+TOP 15 LARGEST VILLAGES
+-----------------------
+Rank  Village              Population  Region
+----  ----------------     ----------  ---------------
+1     Armidale             21,312      New England
+2     Ballina              18,532      Northern Rivers
+3     Batemans Bay         12,263      South Coast
+4     Byron Bay            10,538      Northern Rivers
+5     Casino                9,968      Northern Rivers
+6     Cowra                 8,254      Central West
+7     Camden Haven          8,037      North Coast
+8     Cooma                 6,447      Snowy Mountains
+9     Deniliquin            6,431      Murray
+10    Cootamundra           5,732      Riverina
+11    Alstonville           5,182      Northern Rivers
+12    Blackheath            4,479      Blue Mountains
+13    Bega                  4,368      South Coast
+14    Anna Bay              4,241      Hunter
+15    Bungendore            3,935      Capital Country
+
+REGIONAL ANALYSIS
+-----------------
+Region               Villages  Total Pop  Avg Pop  % of Total
+---------------      --------  ---------  -------  ----------
+Northern Rivers         23      82,419     3,583      31.3%
+North Coast            21      38,964     1,856      14.8%
+South Coast            19      50,307     2,648      19.1%
+New England            14      31,194     2,228      11.9%
+Central West           11      20,653     1,878       7.9%
+Riverina               11      13,574     1,234       5.2%
+Hunter                 10      19,447     1,945       7.4%
+Capital Country         8      14,547     1,818       5.5%
+Snowy Mountains         8       9,090     1,136       3.5%
+Southern Highlands      6       9,261     1,544       3.5%
+Macarthur               5       9,920     1,984       3.8%
+Murray                  5       8,892     1,778       3.4%
+Living Outback          5       2,554       511       1.0%
+Sydney                  4       3,337       834       1.3%
+Blue Mountains          2       4,596     2,298       1.7%
+Central Coast           1         737       737       0.3%
+
+KEY INSIGHTS
+------------
+1. Northern Rivers is the most village-dense region with 23 villages and highest 
+   total village population (82,419 people)
+
+2. Large villages (5000+) make up only 7% of villages but contain 48% of the
+   total village population
+
+3. Very small villages (<500) represent 36% of all villages but only 1.3% of
+   the population
+
+4. Coastal regions (Northern Rivers, North Coast, South Coast) contain 41% of
+   all villages and 65% of the total village population
+
+5. The largest village (Armidale) has 182 times more people than the smallest
+   village (Cullen Bullen)
+
+6. Average population varies significantly by region:
+   - Highest: Northern Rivers (3,583 per village)
+   - Lowest: Living Outback (511 per village)
+
+GEOGRAPHIC DISTRIBUTION
+-----------------------
+- Coastal villages: 63 villages (41%)
+- Inland/mountain villages: 90 villages (59%)
+- Most northern village: Tweed area (Northern Rivers)
+- Most southern village: Eden area (South Coast)
+- Most western village: Broken Hill area (Living Outback)
+
+HISTORICAL NOTES
+----------------
+Many villages reflect NSW's development patterns:
+- Gold rush towns (Blue Mountains, Central West)
+- Agricultural centers (Riverina, New England)
+- Coastal fishing/tourism towns (North/South Coast)
+- Mining communities (Hunter Valley, Living Outback)
+- Mountain resort towns (Snowy Mountains)
+
+This database provides a comprehensive view of NSW's village landscape, showing
+the diversity of community sizes and regional distribution across the state.
