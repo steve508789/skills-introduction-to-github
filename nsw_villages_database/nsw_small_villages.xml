@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>NSW Small Villages Database</Title>
+  <Author>NSW Villages Database</Author>
+  <Created>2025-07-28T01:54:39.583024</Created>
+ </DocumentProperties>
+ <Worksheet ss:Name="Small Villages (500-999)">
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">Rank</Data></Cell>
+    <Cell><Data ss:Type="String">Village Name</Data></Cell>
+    <Cell><Data ss:Type="String">Population</Data></Cell>
+    <Cell><Data ss:Type="String">Local Government Area</Data></Cell>
+    <Cell><Data ss:Type="String">Region</Data></Cell>
+    <Cell><Data ss:Type="String">Latitude</Data></Cell>
+    <Cell><Data ss:Type="String">Longitude</Data></Cell>
+    <Cell><Data ss:Type="String">Designation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Crescent Head</Data></Cell>
+    <Cell><Data ss:Type="Number">978</Data></Cell>
+    <Cell><Data ss:Type="String">Kempsey</Data></Cell>
+    <Cell><Data ss:Type="String">North Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-31.1833</Data></Cell>
+    <Cell><Data ss:Type="Number">152.9667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Berrigan</Data></Cell>
+    <Cell><Data ss:Type="Number">957</Data></Cell>
+    <Cell><Data ss:Type="String">Berrigan</Data></Cell>
+    <Cell><Data ss:Type="String">Murray</Data></Cell>
+    <Cell><Data ss:Type="Number">-35.6667</Data></Cell>
+    <Cell><Data ss:Type="Number">145.8</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Bowraville</Data></Cell>
+    <Cell><Data ss:Type="Number">941</Data></Cell>
+    <Cell><Data ss:Type="String">Nambucca Valley</Data></Cell>
+    <Cell><Data ss:Type="String">North Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-30.65</Data></Cell>
+    <Cell><Data ss:Type="Number">152.85</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Beechwood</Data></Cell>
+    <Cell><Data ss:Type="Number">914</Data></Cell>
+    <Cell><Data ss:Type="String">Port Macquarie-Hastings</Data></Cell>
+    <Cell><Data ss:Type="String">North Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-31.3833</Data></Cell>
+    <Cell><Data ss:Type="Number">152.85</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">East Jindabyne</Data></Cell>
+    <Cell><Data ss:Type="Number">907</Data></Cell>
+    <Cell><Data ss:Type="String">Snowy Monaro</Data></Cell>
+    <Cell><Data ss:Type="String">Snowy Mountains</Data></Cell>
+    <Cell><Data ss:Type="Number">-36.4167</Data></Cell>
+    <Cell><Data ss:Type="Number">148.6167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Boggabri</Data></Cell>
+    <Cell><Data ss:Type="Number">885</Data></Cell>
+    <Cell><Data ss:Type="String">Narrabri</Data></Cell>
+    <Cell><Data ss:Type="String">New England</Data></Cell>
+    <Cell><Data ss:Type="Number">-30.6833</Data></Cell>
+    <Cell><Data ss:Type="Number">150.0417</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Clarence Town</Data></Cell>
+    <Cell><Data ss:Type="Number">878</Data></Cell>
+    <Cell><Data ss:Type="String">Dungog</Data></Cell>
+    <Cell><Data ss:Type="String">Hunter</Data></Cell>
+    <Cell><Data ss:Type="Number">-32.5833</Data></Cell>
+    <Cell><Data ss:Type="Number">151.7667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Darlington Point</Data></Cell>
+    <Cell><Data ss:Type="Number">868</Data></Cell>
+    <Cell><Data ss:Type="String">Murrumbidgee</Data></Cell>
+    <Cell><Data ss:Type="String">Riverina</Data></Cell>
+    <Cell><Data ss:Type="Number">-34.5667</Data></Cell>
+    <Cell><Data ss:Type="Number">146.0667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Adelong</Data></Cell>
+    <Cell><Data ss:Type="Number">856</Data></Cell>
+    <Cell><Data ss:Type="String">Snowy Valleys</Data></Cell>
+    <Cell><Data ss:Type="String">Riverina</Data></Cell>
+    <Cell><Data ss:Type="Number">-35.3167</Data></Cell>
+    <Cell><Data ss:Type="Number">148.0667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Brandy Hill</Data></Cell>
+    <Cell><Data ss:Type="Number">852</Data></Cell>
+    <Cell><Data ss:Type="String">Port Stephens</Data></Cell>
+    <Cell><Data ss:Type="String">Hunter</Data></Cell>
+    <Cell><Data ss:Type="Number">-32.6167</Data></Cell>
+    <Cell><Data ss:Type="Number">151.8333</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Erowal Bay</Data></Cell>
+    <Cell><Data ss:Type="Number">791</Data></Cell>
+    <Cell><Data ss:Type="String">Shoalhaven</Data></Cell>
+    <Cell><Data ss:Type="String">South Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-35.1167</Data></Cell>
+    <Cell><Data ss:Type="Number">150.5667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Cunjurong Point</Data></Cell>
+    <Cell><Data ss:Type="Number">785</Data></Cell>
+    <Cell><Data ss:Type="String">Shoalhaven</Data></Cell>
+    <Cell><Data ss:Type="String">South Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-35.1833</Data></Cell>
+    <Cell><Data ss:Type="Number">150.5833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Brewarrina</Data></Cell>
+    <Cell><Data ss:Type="Number">743</Data></Cell>
+    <Cell><Data ss:Type="String">Brewarrina</Data></Cell>
+    <Cell><Data ss:Type="String">Living Outback</Data></Cell>
+    <Cell><Data ss:Type="Number">-29.9667</Data></Cell>
+    <Cell><Data ss:Type="Number">146.8583</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Brooklyn</Data></Cell>
+    <Cell><Data ss:Type="Number">737</Data></Cell>
+    <Cell><Data ss:Type="String">Central Coast</Data></Cell>
+    <Cell><Data ss:Type="String">Central Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-33.5333</Data></Cell>
+    <Cell><Data ss:Type="Number">151.2167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Ewingsdale</Data></Cell>
+    <Cell><Data ss:Type="Number">733</Data></Cell>
+    <Cell><Data ss:Type="String">Byron</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.6167</Data></Cell>
+    <Cell><Data ss:Type="Number">153.5833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Dunedoo</Data></Cell>
+    <Cell><Data ss:Type="Number">725</Data></Cell>
+    <Cell><Data ss:Type="String">Warrumbungle</Data></Cell>
+    <Cell><Data ss:Type="String">Central West</Data></Cell>
+    <Cell><Data ss:Type="Number">-32.0167</Data></Cell>
+    <Cell><Data ss:Type="Number">149.3833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Coolah</Data></Cell>
+    <Cell><Data ss:Type="Number">722</Data></Cell>
+    <Cell><Data ss:Type="String">Warrumbungle</Data></Cell>
+    <Cell><Data ss:Type="String">Central West</Data></Cell>
+    <Cell><Data ss:Type="Number">-31.8167</Data></Cell>
+    <Cell><Data ss:Type="Number">149.7167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Bawley Point</Data></Cell>
+    <Cell><Data ss:Type="Number">716</Data></Cell>
+    <Cell><Data ss:Type="String">Eurobodalla</Data></Cell>
+    <Cell><Data ss:Type="String">South Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-35.5167</Data></Cell>
+    <Cell><Data ss:Type="Number">150.4</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Clifton Grove</Data></Cell>
+    <Cell><Data ss:Type="Number">701</Data></Cell>
+    <Cell><Data ss:Type="String">Greater Taree</Data></Cell>
+    <Cell><Data ss:Type="String">North Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-31.8833</Data></Cell>
+    <Cell><Data ss:Type="Number">152.4</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Cudgen</Data></Cell>
+    <Cell><Data ss:Type="Number">616</Data></Cell>
+    <Cell><Data ss:Type="String">Tweed</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.25</Data></Cell>
+    <Cell><Data ss:Type="Number">153.5833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Curlewis</Data></Cell>
+    <Cell><Data ss:Type="Number">605</Data></Cell>
+    <Cell><Data ss:Type="String">Gunnedah</Data></Cell>
+    <Cell><Data ss:Type="String">New England</Data></Cell>
+    <Cell><Data ss:Type="Number">-31.0833</Data></Cell>
+    <Cell><Data ss:Type="Number">150.3333</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">Eugowra</Data></Cell>
+    <Cell><Data ss:Type="Number">601</Data></Cell>
+    <Cell><Data ss:Type="String">Forbes</Data></Cell>
+    <Cell><Data ss:Type="String">Central West</Data></Cell>
+    <Cell><Data ss:Type="Number">-33.7167</Data></Cell>
+    <Cell><Data ss:Type="Number">148.3667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Cowan</Data></Cell>
+    <Cell><Data ss:Type="Number">599</Data></Cell>
+    <Cell><Data ss:Type="String">Hornsby</Data></Cell>
+    <Cell><Data ss:Type="String">Sydney</Data></Cell>
+    <Cell><Data ss:Type="Number">-33.5833</Data></Cell>
+    <Cell><Data ss:Type="Number">151.1667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Coomba Park</Data></Cell>
+    <Cell><Data ss:Type="Number">587</Data></Cell>
+    <Cell><Data ss:Type="String">Mid-Coast</Data></Cell>
+    <Cell><Data ss:Type="String">North Coast</Data></Cell>
+    <Cell><Data ss:Type="Number">-32.2667</Data></Cell>
+    <Cell><Data ss:Type="Number">152.5667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Baradine</Data></Cell>
+    <Cell><Data ss:Type="Number">586</Data></Cell>
+    <Cell><Data ss:Type="String">Warrumbungle</Data></Cell>
+    <Cell><Data ss:Type="String">Central West</Data></Cell>
+    <Cell><Data ss:Type="Number">-30.9333</Data></Cell>
+    <Cell><Data ss:Type="Number">149.0667</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Belimbla Park</Data></Cell>
+    <Cell><Data ss:Type="Number">576</Data></Cell>
+    <Cell><Data ss:Type="String">Camden</Data></Cell>
+    <Cell><Data ss:Type="String">Macarthur</Data></Cell>
+    <Cell><Data ss:Type="Number">-34.0833</Data></Cell>
+    <Cell><Data ss:Type="Number">150.8</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">Coleambally</Data></Cell>
+    <Cell><Data ss:Type="Number">566</Data></Cell>
+    <Cell><Data ss:Type="String">Murrumbidgee</Data></Cell>
+    <Cell><Data ss:Type="String">Riverina</Data></Cell>
+    <Cell><Data ss:Type="Number">-34.8167</Data></Cell>
+    <Cell><Data ss:Type="Number">145.8833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Clunes</Data></Cell>
+    <Cell><Data ss:Type="Number">564</Data></Cell>
+    <Cell><Data ss:Type="String">Lismore</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.9667</Data></Cell>
+    <Cell><Data ss:Type="Number">153.35</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Burringbar</Data></Cell>
+    <Cell><Data ss:Type="Number">555</Data></Cell>
+    <Cell><Data ss:Type="String">Tweed</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.3833</Data></Cell>
+    <Cell><Data ss:Type="Number">153.4833</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Coutts Crossing</Data></Cell>
+    <Cell><Data ss:Type="Number">553</Data></Cell>
+    <Cell><Data ss:Type="String">Clarence Valley</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-29.6333</Data></Cell>
+    <Cell><Data ss:Type="Number">152.9167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Boggabilla</Data></Cell>
+    <Cell><Data ss:Type="Number">529</Data></Cell>
+    <Cell><Data ss:Type="String">Moree Plains</Data></Cell>
+    <Cell><Data ss:Type="String">New England</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.6167</Data></Cell>
+    <Cell><Data ss:Type="Number">150.0333</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">Broadwater</Data></Cell>
+    <Cell><Data ss:Type="Number">524</Data></Cell>
+    <Cell><Data ss:Type="String">Richmond Valley</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-29.0333</Data></Cell>
+    <Cell><Data ss:Type="Number">153.4167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Dunoon</Data></Cell>
+    <Cell><Data ss:Type="Number">513</Data></Cell>
+    <Cell><Data ss:Type="String">Lismore</Data></Cell>
+    <Cell><Data ss:Type="String">Northern Rivers</Data></Cell>
+    <Cell><Data ss:Type="Number">-28.6833</Data></Cell>
+    <Cell><Data ss:Type="Number">153.3167</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">Euston</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="String">Balranald</Data></Cell>
+    <Cell><Data ss:Type="String">Living Outback</Data></Cell>
+    <Cell><Data ss:Type="Number">-34.5833</Data></Cell>
+    <Cell><Data ss:Type="Number">142.7333</Data></Cell>
+    <Cell><Data ss:Type="String">Locality</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
